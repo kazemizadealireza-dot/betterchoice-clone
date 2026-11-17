@@ -1,0 +1,33 @@
+.SrchKey
+{
+    font-weight:bold;
+    background:#3ba85e;
+    color: #fff;
+}
+
+.SrchItemBar {
+    padding: 15px;
+}
+
+.SrchTitleBar
+{
+    font-size: 13pt;
+padding-bottom: 5px;
+font-family: ctc;
+font-weight: bold;
+}
+.SrchTitleBar a{
+      text-decoration: none;
+   color: #3ba85e;
+
+}
+
+.SrchBriefBar {
+    padding-bottom: 5px;
+}
+
+.SrchUrlBar {
+    direction: ltr;
+    color: #3ba85e;
+    text-align: left;
+}
