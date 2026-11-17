@@ -1,0 +1,907 @@
+@media only screen and (min-width:1600px) {
+  .HomeTitle {
+    padding: 30px 0 !important;
+    font-size: 25pt !important;
+  }
+}
+
+@media only screen and (min-width:1300px) {
+
+  .HomeTitle {
+    padding: 30px 0 !important;
+    font-size: 20pt !important;
+  }
+}
+
+@media only screen and (min-width:1100px) {
+  .HomeTitle {
+    padding: 30px 0 !important;
+    font-size: 16pt !important;
+  }
+
+
+}
+
+@media only screen and (max-width:1300px) {
+  .PDetail {
+    margin: 0px !important;
+}
+  .PDetail {
+    display: flex;
+    flex-direction: column-reverse;
+}
+  .WspCat a {
+    width: calc(20% - 32px) !important;
+  }
+  .EduChld {
+    width: calc(50% - 34px) !important;
+  }
+
+  .PTitle {
+    font-size: 10pt !important;
+  }
+
+  .PARight {
+    font-size: 17px !important;
+  }
+
+  .master .NewsItem {
+    width: calc(33.3% - 12px) !important;
+  }
+
+  .NTCat {
+    width: 24% !important;
+  }
+
+  .NTData {
+    width: 76% !important;
+  }
+
+  .PDLeft {
+    float: unset !important;
+    width: unset !important;
+    margin-right: 0px !important;
+    margin-top: 5px !important;
+    position: unset !important;
+  }
+
+  .PDRight {
+    float: unset !important;
+    width: unset !important;
+  }
+
+  .LastW .WItem {
+    width: calc(25% - 12px) !important;
+  }
+
+  .WItem, .EduItem {
+    width: calc(33.3% - 7px) !important;
+    margin-left: 5px !important;
+    margin-right: 0 !important;
+  }
+
+  .WTitle {
+    font-size: 10pt !important;
+  }
+
+  .ProT {
+    font-size: 15pt !important;
+  }
+}
+
+@media only screen and (max-width:1023px) {
+
+  .WDLI .PDDyn {
+    flex-direction: column !important;
+}
+  .WspCat a {
+    width: calc(25% - 32px) !important;
+  }
+  .WDRight, .EduRight, .EduLeft, .WDLeft {
+    float: unset !important;
+    width: unset !important;
+    position: unset !important;
+
+  }
+
+  .EduRight {
+    padding: 10px 0 0 0 !important;
+  }
+
+  .LastW .WItem {
+    width: calc(50% - 12px) !important;
+  }
+
+  .HBItem i {
+    bottom: -18px !important;
+    padding: 5px 5px !important;
+    width: 55% !important;
+    font-size: 16px !important;
+  }
+
+  h4 {
+    font-size: 11pt !important;
+  }
+
+  .wdbVal {
+    font-size: 14px !important;
+  }
+
+  .wdbKey {
+    font-size: 14px !important;
+  }
+
+  .NormalMenu {
+    display: none !important;
+  }
+
+  .MobileMenu {
+    display: block !important;
+  }
+
+  .WItem, .EduItem {
+    width: calc(50% - 7px) !important;
+    margin-left: 5px !important;
+    margin-right: 0 !important;
+  }
+
+  .master .NewsItem {
+    width: calc(50% - 12px) !important;
+  }
+}
+
+@media only screen and (max-width: 979px) {
+  .AllPageTitle a {
+    font-size: .7em !important;
+
+  }
+  .EduInstItm {
+    width: 20% !important;
+  }
+
+  .nTitle {
+    font-size: 1.8vw !important;
+  }
+
+  .EduT {
+    font-size: 16px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(100% - 130px) !important;
+    padding: 10px !important;
+  }
+
+  .EduItemNav {
+    width: 45px !important;
+    height: 26px !important;
+    padding: 11px 0px !important;
+  }
+
+  .NTCat {
+    width: 30% !important;
+  }
+
+  .NTData {
+    width: 70% !important;
+  }
+
+  .TheGrd .grdCel {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .InstGrd .grdCel {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .LeftNav {
+    float: left !important;
+    /*border-bottom: 4.5px solid transparent !important;*/
+    width: 50px;
+    padding: 28px 10px !important;
+    cursor: pointer !important;
+    user-select: none !important;
+    display: block !important;
+    text-decoration: none !important;
+    color: #1b2e52 !important;
+  }
+
+  .Signout {
+    background: url('images/usr.png') no-repeat center center;
+  }
+
+  .Signout span {
+    display: none !important;
+  }
+
+  .Signout:Hover {
+    border-bottom: 12.5px solid #f06f23;
+    padding: 24px 10px !important;
+  }
+
+  .btnSC:hover {
+    border-bottom: 12.5px solid #fc4349;
+    padding: 24px 10px !important;
+  }
+
+  .SupportNav {
+    display: none !important;
+  }
+
+  .LoginNav a {
+    background: url('Images/login.svg') no-repeat center center !important;
+    background-size: 22px !important;
+    padding: 28px 10px !important;
+    color: rgba(27, 46, 82, 0) !important;
+  }
+
+  .RegisterNav a {
+    background: url('Images/apply.svg') no-repeat center center !important;
+    background-size: 22px !important;
+    padding: 28px 5px !important;
+    color: rgba(27, 46, 82, 0) !important;
+  }
+
+  .RegisterNav:Hover {
+    border-bottom: 12.5px solid #fc4349 !important;
+    padding: 24px 10px !important;
+  }
+
+  .LoginNav:Hover {
+    border-bottom: 12.5px solid #3ba85e !important;
+    padding: 24px 10px !important;
+  }
+
+  .masonry .item,
+  .masonry .grid-sizer {
+    width: 25% !important;
+  }
+
+  .GalleryItem {
+    width: calc(25% - 1px) !important;
+  }
+
+  .VideoItem {
+    width: 25% !important;
+    width: calc(25% - 1px) !important;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .AgentBlock {
+    width: unset !important;
+    float: unset !important;
+    margin: 0 0 10px 0 !important;
+  }
+  .NLLItm, .UACItm {
+    width: unset !important;
+    float: unset !important;
+  }
+  .validcert * {
+    font-size: 2.5vw !important;
+    padding: 0% 0% !important;
+    display: inline-block;
+  }
+  .JItem {
+    float: unset !important;
+    width: unset !important;
+  }
+}
+
+@media only screen and (max-width:799px) {
+  .nTitle {
+    font-size: 1.9vw !important;
+  }
+
+  .QFinal {
+    margin: 10px 0px;
+  }
+
+  .NTotal {
+    background: #fff !important;
+  }
+
+  .NewsDouble {
+    width: calc(100% - 2px) !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    float: unset !important;
+  }
+
+  .NewsSingle {
+    width: calc(50% - 7px) !important;
+    margin-right: 0 !important;
+    margin-left: 5px !important;
+  }
+
+  .NewsSingle:last-of-type {
+    width: calc(50% - 7px) !important;
+    margin-right: 5px !important;
+    margin-left: 0 !important;
+  }
+
+  .NTCat {
+    width: calc(100% - 10px) !important;
+    padding: 1px;
+    margin: 5px;
+  }
+
+  .NTData {
+    width: 100% !important;
+    padding-top: 10px !important;
+  }
+
+  .masonry .item,
+  .masonry .grid-sizer {
+    width: 50% !important;
+  }
+
+  .GalleryItem {
+    width: calc(50% - 1px) !important;
+  }
+
+  /* .EduItem {
+  width: calc(50% - 10px) !important;
+  } */
+
+  .HAItem {
+    float: unset !important;
+    width: unset !important;
+  }
+
+  .HAItem img {
+    width: 30% !important;
+  }
+
+  .AdvBox {
+    width: 100% !important;
+    float: unset !important;
+  }
+
+  .ContactForm {
+    float: unset !important;
+    width: unset !important;
+    margin: unset !important;
+    margin-bottom: 20px !important;
+  }
+
+  .EduChld {
+    width: calc(100% - 34px) !important;
+  }
+
+  .ECTitle {
+    font-size: 11px !important;
+  }
+}
+
+@media only screen and (max-width:699px) {
+
+
+
+  .WspCat a {
+    width: calc(50% - 32px) !important;
+  }
+
+  .nTitle {
+    font-size: 2.5vw !important;
+  }
+
+  .CDataRight, .CDataLeft {
+    float: unset !important;
+    width: unset !important;
+    padding: 0px !important;
+  }
+
+  .ProT {
+    font-size: 11pt !important;
+    margin-bottom: 5px !important;
+  }
+
+  .PDImage {
+    width: unset !important;
+    float: unset !important;
+  }
+
+  .PDBody {
+    float: unset !important;
+    width: unset !important;
+    padding-right: 0px !important;
+    padding-top: 10px !important;
+  }
+
+  /* .NCatBody a {
+  font-size: 8pt !important;
+  } */
+  .NewsDouble, .NewsSingle, .NewsSingle:last-of-type {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    float: unset !important;
+  }
+
+  .FBItem {
+    width: unset !important;
+    float: unset !important;
+    margin: 19px 10px 0px 10px;
+  }
+  /* .NTCat
+  {
+  display: none !important;
+  } */
+  .NTData {
+    width: 100% !important;
+  }
+
+  .FileGal input, .ImageGal a, .VideoGal a {
+    width: 23% !important;
+  }
+
+  .EduLeftSplit, .EduRightSplit {
+    float: unset !important;
+    width: unset !important;
+  }
+
+  .CerGrd .grdCel {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width:599px) {
+.WDData.WDData1, .WDData.WDData2{
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
+  .EduInstItm {
+    width: 25% !important;
+  }
+
+  .testimg {
+    float: unset !important;
+    margin: 30px !important;
+    width: calc(100% - 60px) !important;
+  }
+
+  .master .NewsItem {
+    width: unset !important;
+    float: unset !important;
+  }
+
+  .AllPageTitle a {
+    font-size: .7em !important;
+  }
+
+  .rsGCaption {
+    display: none !important;
+  }
+
+  .UserBox img {
+    width: 30px !important;
+  }
+
+  .UserFD {
+    padding: 0 10px 5px 10px !important;
+  }
+
+  .Follow {
+    font-size: 6pt !important;
+  }
+
+  .UIco {
+    padding: 25px 10px 0 10px !important;
+    font-size: 10pt !important;
+  }
+
+  .UIco span {
+    display: none !important;
+  }
+
+  .masonry .item,
+  .masonry .grid-sizer {
+    width: 100% !important;
+  }
+
+  .GalleryItem {
+    width: unset !important;
+    float: unset !important;
+  }
+
+  .LastW .WItem {
+    width: unset !important;
+    Float: unset !important;
+  }
+
+  .WItem, .WBItem, .EduItem {
+    width: 100% !important;
+    float: unset !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 5px;
+  }
+
+  .HomeItem, .VideoItem {
+    width: 50% !important;
+    width: calc(50% - 1px) !important;
+  }
+
+  /* .EduItem {
+  width: calc(100% - 10px) !important;
+  } */
+
+  .FooterBanner a {
+    width: 100% !important;
+    float: unset !important;
+  }
+
+  .MarginRight, .MarginLeft {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .FSocialText {
+    letter-spacing: 0px !important;
+    font-size: 7pt;
+  }
+
+  .HBItem {
+    float: unset !important;
+    width: unset !important;
+    margin-bottom: 20px;
+  }
+
+  .HBItem i {
+    bottom: 9% !important;
+  }
+
+  .Logo {
+    background: url('images/MobileLogo-text.svg') no-repeat center right !important;
+    width: 180px !important;
+  }
+  .EduSpcItm {
+    width: unset !important;
+    float: unset !important;
+  }
+}
+
+@media only screen and (max-width:460px) {
+  .EduLeft .PDAmount span{
+    color: #ff8e8e !important;
+    font-size: 13px !important;
+
+  }
+  .PDDyn {
+    display: none;
+    }
+  .WWDAmount span {
+   margin-right: -3px !important;
+  }
+  .SrvTitle span{
+    font-size: 11pt !important;
+  }
+  .PDetail ul li::before, .BodyCnt ul li::before, .PDBody ul li::before {
+    width: 14px !important;
+    margin-left: 0 !important;
+    margin-right: -20px !important;
+}
+.PDetail li,.BodyCnt li, .PDBody li{
+    margin: 0 -15px 0 0 !important;
+}
+.WBaseImage {
+    margin: -5px -5px 5px -5px !important;
+    border: 1px solid var(--very-light-gray);
+    border-radius: 5px !important;
+}
+  .WBaseImage img {
+    border-radius: 4px !important;
+  }
+  .PDRight {
+    border: none !important;
+    padding: 5px !important;
+
+  }
+  .Content {
+    margin: 0 3% !important;
+
+}
+  .orange, .red, .blue, .greentip {
+    padding: 10px !important;
+    border-radius: 5px !important;
+    background-image:none !important;
+    text-align: right !important;
+  }
+
+  .WStat img {
+      margin: -1px 1px 0px 0px !important;
+  }
+  .PDRight .WStat {
+      border-radius: 5px !important;
+      top: 103% !important;
+      overflow: hidden;
+      width: 24% !important;
+      left: -1px;
+  }
+  #ContentPlaceHolder1_pnlPurchased{
+    position: absolute;
+    display: flex;
+    margin:5px;
+    bottom: 60px;
+    font-size: 14px;
+  }
+  .EduLeft{
+    padding-top: 5px !important;
+    height: 70px;
+    display: flex;
+    position: fixed !important;
+    bottom: 0!important;
+    left: 0!important;
+    right: 0!important;
+    z-index: 9991;
+    padding: 0px;
+    background: white;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+    justify-content: center;
+    top: unset !important;
+  }
+
+  .EduLeft .PDLI {
+    border: none !important;
+    align-items: center;
+    text-align: right !important;
+    position: relative;
+    width: calc(100% - 72px);
+    display: flex;
+    height: 70px !important;
+  }
+
+  .EduLeft .PDAmount{
+    font-size: 21px !important;
+    background: unset!important;
+    color: black !important;
+    padding: unset !important;
+    width: 100%;
+    display: inline-block;
+    text-align: right !important;
+    margin-right: 5% !important;
+  }
+
+  .EduLeft input[type="submit"] {
+    padding: 3px !important;
+    margin: 5px 8px !important;
+    width: 172px !important;
+    height: 55px;
+    font-size: 18px !important;
+  }
+
+  .Logo {
+    background: url('images/MobileLogo.svg') no-repeat center right !important;
+    width: 70px !important;
+  }
+
+  .PDetail .PDLeft {
+    padding: 5px 0px;
+    display: flex;
+    width: 100% !important;
+    position: fixed !important;
+    bottom: 0!important;
+    left: 0!important;
+    right: 0!important;
+    z-index: 9991;
+    background: white;
+    box-shadow: 0 -5px 5px 0px rgba(0,0,0,.2);
+    top: unset !important;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .PDetail .WDTypeItm {
+    position: relative;
+    padding: 7px 35px 7px 5px!important;
+    font-size: 12px !important;
+  }
+  .WDTypeItm::before , .WDTypeItm.Selected::before{
+    right: 10px !important;
+    font-size: 20px!important ;
+  }
+  .PDetail .WWDAmount i{
+    display: none;
+  }
+
+  .PDType{
+    display: flex!important;
+    flex-direction: row!important;
+    align-items: stretch!important;
+    align-content: stretch!important;
+    position: absolute !important;
+    width: calc(100% - 10px)!important;
+    bottom: 60px!important;
+    margin:0px !important;
+    background: white;
+    padding: 5px 5px 0 5px;
+    box-shadow: 0 -5px 5px 0px rgba(0,0,0,.2);
+  }
+  .WDTypeItm {
+    padding: 10px 40px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #009494;
+    background: #f4f4f4;
+    color: var(--dark-gray) !important;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 3px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* .PDetail .PDLI {
+    display: none !important;
+  } */
+  .PDetail .WNDAmount {
+      background: none !important;
+      color: #d56666!important;
+      margin-left: 5px!important;
+      font-size: 17px !important;
+      margin-bottom: 0px;
+      text-decoration: line-through;
+  }
+  .PDetail .WNDAmount span{
+      display: none !important;
+  }
+  .PDetail .PDWAmount{
+    border: none !important;
+    margin-bottom: 0px !important;
+    display: flex;
+    height: 55px;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  .PDetail .WWDAmount {
+    background: #ffff !important;
+    color: black !important;
+    padding: 0!important;
+    font-size: 30px !important;
+  }
+  .PDetail .WWDAmount br{
+  display: none;
+  }
+  .PDLeft input[type=submit] {
+    display: flex;
+    padding: 0px !important;
+    margin: 0px 10px !important;
+    width: 120px !important;
+    height: 55px;
+    font-size: 18px !important;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: none !important;
+    cursor: pointer;
+    color: #fff !important;
+    background-color: #f06f23 !important;
+}
+}
+@media only screen and (max-width:385px) {
+
+  .PDetail .WWDAmount {
+    font-size: 20px !important;
+}
+  .PDetail .WWDAmount span {
+    margin-right: -3px !important;
+}
+
+  .EduFileItem::before {
+    display: none;
+  }
+  .EduTab .TabBtn li  {
+    width: calc(100% - 30px);
+    margin: 8px;
+  }
+  .QNL{
+    font-size: 16px;
+  }
+  .QDFirst i{
+    font-size: 16px;
+    padding-top: 4px;
+  }
+  .DownloadPane span{
+    display: none;
+  }
+  .DownloadPane #ContentPlaceHolder1_btnDownload{
+    width: 100%;
+  }
+  .EduNext {
+    display: none !important;
+  }
+  .EduPrev {
+    display: none !important;
+  }
+  .EduT {
+    font-size: 13px !important;
+    letter-spacing: unset !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(100% - 20px) !important;
+  }
+  .WspCat a {
+    width: calc(100% - 32px) !important;
+  }
+
+  .EduInstItm {
+    width: 50% !important;
+  }
+
+  .wdbVal {
+    font-size: 12px !important;
+  }
+
+  .wdbKey {
+    font-size: 12px !important;
+  }
+
+  body {
+    font-size: 12px !important;
+  }
+
+  .master .NewsItem, .WDRight, .WDLeft {
+    width: unset !important;
+    float: unset !important;
+  }
+
+  .HomeItem, .VideoItem {
+    width: 100% !important;
+    width: calc(100% - 1px) !important;
+  }
+
+  .SupportNav {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width:330px) {
+  .EduLeft .PDAmount{
+    font-size: 16px !important;
+
+  }
+  .EduLeft .PDAmount span{
+    color: #ff8e8e !important;
+    font-size: 13px !important;
+
+  }
+  .SearchPane
+  {
+    display:none !important;
+  }
+}
+
+@media only screen and (max-width:300px) {
+  .Logo {
+    display: none !important;
+  }
+
+  .CustomerMenu {
+    width: 80% !important;
+  }
+
+  .btnCMenu.Opened {
+    right: 80% !important;
+  }
+}
+
+@media only screen and (max-width:230px) {
+  .MenuInner {
+    display: none !important;
+  }
+  .EduInstItm {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width:160px) {
+  #hypSC {
+    display: none !important;
+  }
+}

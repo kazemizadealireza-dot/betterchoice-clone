@@ -1,0 +1,18 @@
+#tooltip {
+  cursor: pointer;
+   display: none;
+   position: absolute;
+   color: #ffff;
+   font-size:8pt;
+   text-align: center;
+   z-index: 12000;
+   padding: 5px 10px;
+   max-width: 300px;
+   border: 2px #fff solid;
+   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.39);
+   border-radius: 15px;
+   background: #009494;
+   line-height: 12pt;
+   font-family: ctc;
+   direction: rtl;
+}

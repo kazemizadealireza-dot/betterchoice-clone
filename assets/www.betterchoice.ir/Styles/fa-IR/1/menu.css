@@ -1,0 +1,151 @@
+.MobileMenu {
+    display: none;
+}
+
+.MobileMenuLinks {
+    float: left;
+}
+
+.MenuInner ul, .MenuInner li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    font-family: 'BYekanlight';
+}
+
+
+.MenuInner > ul {
+    position: relative;
+}
+
+    .MenuInner > ul > li {
+        float: right;
+        padding: 10px 10px;
+        height: 20px;
+        position: relative;
+    }
+
+        .MenuInner > ul > li ul {
+            position: absolute;
+            top: 37px;
+            background: #270e0f;
+            z-index: 1000;
+            display: none;
+            right: 0;
+        }
+
+            .MenuInner > ul > li ul li {
+                padding: 5px;
+                border-bottom: 1px solid #1e0405;
+                width: 150px;
+            }
+
+
+
+        .MenuInner > ul > li:first-child {
+            margin-right: 20px;
+        }
+
+        .MenuInner > ul > li:hover {
+            background: #270e0f;
+            
+        }
+
+
+            .MenuInner > ul > li:hover ul {
+                display: block;
+            }
+
+        .MenuInner > ul > li ul li:hover {
+            background: #551414;
+        }
+
+
+.MobileMenuBtn {
+    background: url('https://www.betterchoice.ir/Styles/fa-IR/1/images/mmb.png') center center no-repeat;
+    width: 42px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+    .MobileMenuBtn.Selected {
+        background: url('https://www.betterchoice.ir/Styles/fa-IR/1/images/mmbh.png') center center no-repeat;
+        display: none;
+    }
+
+.MobileMenu a {
+    text-decoration: none;
+    color: #000;
+}
+
+.MobileMenu > ul {
+    display: none;
+    Color: #000;
+}
+
+.MobileMenu li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.MobileMenu label:hover, .MobileMenu a:hover {
+    cursor: pointer;
+}
+
+.sf-menu {
+    font-size: 10pt;
+}
+
+    .sf-menu, .sf-menu ul, .sf-menu li {
+        z-index: 1000;
+    }
+
+        .sf-menu a {
+            color: #fff !important;
+        }
+
+        .sf-menu > li > a {
+            color: #fff !important;
+            height: 25px;
+            padding-bottom:5px !important;
+        }
+
+        .sf-menu ul li {
+            border-bottom: 1px solid #2c3e50;
+        }
+
+            .sf-menu ul li:last-child {
+                border: none !important;
+            }
+
+        .sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+            color: #fff !important;
+        }
+
+        .sf-menu li {
+            background: #1b2e52;
+        }
+
+        .sf-menu > li {
+            background: none;
+        }
+        .sf-menu a:hover {
+            background: #3ba85e !important;
+        }
+
+        .sf-menu li.sfHover {
+            color: #fff !important;
+            background: #3ba85e !important;
+        }
+            .sf-menu li.sfHover > a {
+                color: #fff !important;
+            }
+
+        .sf-menu a.sf-with-ul {
+            padding: 15px 1em 5px 2.25em !important;
+        }
