@@ -1,0 +1,58 @@
+.Pager {
+    text-align: center;
+    width: 100%;
+padding: 23px 1% 10px 1%;
+}
+
+.Pager ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Pager li {
+    background: #009494;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    margin: 3px;
+    list-style: none;
+    display: inline-block;
+    float: none;
+    font-family: iransans,tahoma;
+    direction: rtl;
+}
+
+    .Pager li a {
+        display: block;
+        min-width: 20px;
+padding: 4px 7px;
+        
+    }
+
+.Pager li:hover, .Pager li:hover a {
+    background: #1b2d51;
+    color: #fff;
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+.Pager .firstRow,
+.Pager .prevRow,
+.Pager .nextRow,
+.Pager .lastRow {
+    font-weight: bold;
+}
+
+.PagerItemSelected {
+    font-weight: bold;
+    color: #fff;
+    background: #f06f23 !important;
+       min-width: 20px;
+padding: 4px 10px;
+}
+
+.Pager a {
+    text-decoration: none;
+    color: #fff;
+}

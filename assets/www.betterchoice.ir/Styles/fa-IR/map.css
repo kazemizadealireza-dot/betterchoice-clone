@@ -1,0 +1,143 @@
+#map {
+    direction: rtl;
+}
+
+#MapPop {
+    direction: rtl;
+    padding: 5px 0 5px 15px;
+}
+
+.MarkerTitle {
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 3px;
+}
+
+.MarkerBody {
+    padding-top: 10px;
+}
+
+#btnShowMap {
+    cursor: pointer;
+}
+
+.MapCenter {
+    width: 28px;
+    height: 28px;
+    background: url('images/center.png') no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/****************************************************************************************************/
+.marker {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: block;
+}
+
+.pin {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 38px;
+    left: 38px;
+    background: rgba(5, 124, 255, 1);
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    z-index: 1000;
+}
+
+.pin-effect {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    display: block;
+    background: rgba(5, 124, 255, 0.6);
+    border-radius: 50%;
+    opacity: 0;
+    animation: pulsate 2400ms ease-out infinite;
+}
+
+
+@keyframes pulsate {
+    0% {
+        transform: scale(0.1);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+#mapSearch {
+    background: url('images/msh.png') repeat;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: relative;
+    height: 50px;
+    box-shadow: 0 1px 3px rgba(189, 189, 189, 0.2);
+    display: none;
+    width:100%;
+}
+
+    #mapSearch input {
+        margin: 0 !important;
+        width: calc(100% - 60px) !important;
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        bottom: 5px;
+        right: 5px;
+        height: 17px;
+        direction: rtl;
+        background-image: url('images/msb.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-right: 35px;
+    }
+
+@media only screen and (max-width: 414px) {
+    .marker {
+        left: 100px;
+    }
+}
+
+.centerMarker {
+    position: absolute;
+    background: url('images/cm.png') no-repeat;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    margin-left: -24px;
+    margin-top: -24px;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+.centerAddress {
+    padding: 5px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: #000;
+    top: 50%;
+    left: calc(50% - 100px);
+    z-index: 1;
+    margin-left: 0;
+    margin-top: 2px;
+    width: 200px;
+    text-align: center;
+    opacity: .8;
+    display:none;
+}
